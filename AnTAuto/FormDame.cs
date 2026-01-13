@@ -236,7 +236,7 @@ public class FormDame : Form
 		base.Controls.Add(comboBoxKieudanh);
 		base.Controls.Add(checkBoxTuDanhbinhthuong);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "FormDame";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

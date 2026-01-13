@@ -1276,7 +1276,7 @@ public class FormHaucanTuithuoc : Form
 		base.Controls.Add(comboBoxTenTuiMauHotro);
 		base.Controls.Add(checkBoxCoNhapSoluong);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "FormHaucanTuithuoc";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

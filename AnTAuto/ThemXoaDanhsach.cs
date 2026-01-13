@@ -847,7 +847,7 @@ public class ThemXoaDanhsach : Form
 		base.ClientSize = new System.Drawing.Size(237, 335);
 		base.Controls.Add(tabControl1);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "ThemXoaDanhsach";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

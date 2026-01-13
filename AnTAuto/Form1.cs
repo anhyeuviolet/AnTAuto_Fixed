@@ -10838,8 +10838,9 @@ public class Form1 : Form
 
     private void buttonOff_Click(object sender, EventArgs e)
     {
+        // DEBUG
         // Gan tinh nang tu Scan cau truc game vao nut Tai Tro cua Auto
-        new Thread(() => Class47.smethod_4(Class47.string_17)).Start();
+        //new Thread(() => Class47.smethod_4(Class47.string_17)).Start();
         // Loai bo 2 dong ben duoi
         //long_3 = method_15();
         //long_2 = Class11.smethod_22();

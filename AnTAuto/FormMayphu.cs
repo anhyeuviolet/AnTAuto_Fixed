@@ -1594,7 +1594,7 @@ public class FormMayphu : Form
 		base.Controls.Add(buttonThemAcc);
 		base.Controls.Add(buttonXoaAcc);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.MinimizeBox = false;
 		base.Name = "FormMayphu";

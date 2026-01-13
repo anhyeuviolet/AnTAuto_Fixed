@@ -1369,7 +1369,7 @@ public class FormLocdo : Form
 		base.Controls.Add(tabControl1);
 		base.Controls.Add(buttonClose);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "FormLocdo";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -624,7 +624,7 @@ public class FormVideoHelp : Form
 		base.Controls.Add(textBoxTK);
 		base.Controls.Add(label1);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "FormVideoHelp";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

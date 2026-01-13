@@ -591,7 +591,7 @@ public class FormXaphuCT : Form
 		base.Controls.Add(label19);
 		base.Controls.Add(buttonXoaCongThanhQuan);
 		base.Controls.Add(listViewXaphuCongthanh);
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "FormXaphuCT";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

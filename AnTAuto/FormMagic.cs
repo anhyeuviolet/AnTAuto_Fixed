@@ -266,7 +266,7 @@ public class FormMagic : Form
 		base.Controls.Add(listView1);
 		base.Controls.Add(checkBoxBuaXongRoidanh);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.MinimizeBox = false;
 		base.Name = "FormMagic";

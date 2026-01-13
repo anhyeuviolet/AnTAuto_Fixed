@@ -111,7 +111,7 @@ public class FormNgamyBuff : Form
 		base.Controls.Add(checkBoxnttk);
 		base.Controls.Add(buttonClose);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "FormNgamyBuff";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

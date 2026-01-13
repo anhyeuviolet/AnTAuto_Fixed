@@ -563,7 +563,7 @@ public class FormTuychon : Form
 		base.ClientSize = new System.Drawing.Size(324, 179);
 		base.Controls.Add(tabControl1);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "FormTuychon";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

@@ -1,6 +1,5 @@
 using System;
 using System.ComponentModel;
-using System.Drawing;
 using System.Windows.Forms;
 
 public class Combo : Form
@@ -367,7 +366,7 @@ public class Combo : Form
         base.Controls.Add(listView1);
         base.Controls.Add(comboBoxThuoc);
         base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-        //base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+        base.Icon = AnTAuto.Properties.Resources.VLTK;
         base.MaximizeBox = false;
         base.Name = "Combo";
         Text = "COMBO NHOI THUOC";

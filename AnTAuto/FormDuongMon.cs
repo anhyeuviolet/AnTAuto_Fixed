@@ -740,7 +740,7 @@ public class FormDuongMon : Form
 		base.Controls.Add(checkBoxDatXungQuanh);
 		base.Controls.Add(buttonClose);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "FormDuongMon";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

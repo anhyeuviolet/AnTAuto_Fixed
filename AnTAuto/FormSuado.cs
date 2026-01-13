@@ -218,7 +218,7 @@ public class FormSuado : Form
 		base.Controls.Add(textBoxValueDobenThap);
 		base.Controls.Add(checkBoxLuonSuaKhiMuathuoc);
 		base.Controls.Add(checkBoxKhongSuaTK);
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "FormSuado";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

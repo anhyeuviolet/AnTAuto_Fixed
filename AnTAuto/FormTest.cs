@@ -2010,7 +2010,7 @@ public class FormTest : Form
 		base.Controls.Add(groupBox1);
 		base.Controls.Add(tabControl1);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "FormTest";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

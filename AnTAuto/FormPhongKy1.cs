@@ -980,7 +980,7 @@ public class FormPhongKy1 : Form
 		base.Controls.Add(buttonSavePathPk);
 		base.Controls.Add(buttonOpenPathPk);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "FormPhongKy1";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

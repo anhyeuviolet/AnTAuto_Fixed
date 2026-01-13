@@ -486,7 +486,7 @@ public class FormLocdoTest : Form
 		base.Controls.Add(textBoxMin);
 		base.Controls.Add(buttonSua);
 		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-		//base.Icon = (System.Drawing.Icon)componentResourceManager.GetObject("$this.Icon");
+		base.Icon = AnTAuto.Properties.Resources.VLTK;
 		base.MaximizeBox = false;
 		base.Name = "FormLocdoTest";
 		base.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
